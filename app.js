@@ -18,7 +18,7 @@ document.addEventListener("mousemove", () => {
     clearTimeout(mouseTimer); // Reinicia el temporizador si se mueve
 
     mouseTimer = setTimeout(() => {
-        boton.style.left = `50vw`;
-        boton.style.top = `50vh`;
+        boton.style.left = `600px`;
+        boton.style.top = `350px`;
     }, tiempoInactivo);
 });
